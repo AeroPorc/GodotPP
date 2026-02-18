@@ -5,7 +5,9 @@
 [node name="Game" type="Node" unique_id=1441151470]
 
 [node name="GDExample" type="GDExample" parent="." unique_id=1285902514]
-position = Vector2(19.255276, 2.2493389)
+position = Vector2(10.405794, 0.0046335026)
 texture = ExtResource("1_uwrxv")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=852441175]
+
+[node name="NetworkManager" type="NetworkManager" parent="." unique_id=769742356]

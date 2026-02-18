@@ -4,6 +4,9 @@ project(GodotPP LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Include CLion intellisense helpers
+include(${CMAKE_SOURCE_DIR}/cmake/CLionFix.cmake)
+
 # --- Configuration ---
 set(GODOT_PROJECT_DIR "${CMAKE_SOURCE_DIR}/game")
 set(GODOT_VERSION "4.6-stable")
