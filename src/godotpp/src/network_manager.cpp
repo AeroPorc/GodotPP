@@ -30,7 +30,7 @@ NetworkManager::~NetworkManager() {
 }
 
 void NetworkManager::_ready() {
-    UtilityFunctions::print("[NetworkManager] Ready - Network system initialized");
+    UtilityFunctions::print("[NetworkManager] Ready - Network system initialised");
 
     if (!local_actor) {
         if (Node* parent = get_parent()) {
